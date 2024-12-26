@@ -1,0 +1,192 @@
+/*Responsive en el pixel 1449px*/
+@media (max-width: 1499px){
+    .registrate p{
+        font-size: 14px;
+    }
+}
+
+/*Responsive en el pixel 1400px*/
+@media (max-width: 1400px){
+    .pie{
+        width: 350px;
+    }
+
+    .menupie h2, .direccion h2, .desarrollo h2{
+        font-size: 30px;
+    }
+
+    .h,.c,.j,.r{
+        font-size: 50px;
+    }
+
+    .img img{
+        width: 50px;
+    }
+}
+
+/*Responsive en el pixel 1300px*/
+@media (max-width: 1300px){
+    .tarjetas-noticias img{
+        width: 90%;
+    }
+}
+
+/*Responsive en el pixel 1100px*/
+@media (max-width: 1100px){
+    .tarjetas-noticias p{
+        font-size: 13px;
+    }
+
+    .pie{
+        width: 270px;
+    }
+
+    .menupie h2, .direccion h2, .desarrollo h2{
+        font-size: 20px;
+    }
+
+    .h,.c,.j,.r{
+        font-size: 40px;
+    }
+
+    .img img{
+        width: 40px;
+    }
+
+    .contenidoPie p{
+        font-size: 18px;
+    }
+}
+
+/*Responsive en el pixel 970px*/
+@media (max-width: 970px){
+    .encabezado h1{
+        font-size: 40px;
+    }
+
+    .noticias h1{
+        font-size: 40px;
+    }
+
+    .tarjetas-noticias .data{
+        display: none;
+    }
+
+    .tarjetas-noticias h3{
+        font-size: 17px;
+    }
+
+    .enlace a{
+        width: 52%;
+        float: none;
+        margin: 0px auto;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .direccion iframe{
+        height: 260px;
+    }
+}
+
+/*Responsive en el pixel 850px*/
+@media (max-width: 850px){
+    .contenedor{
+        width: 127%;
+    }
+
+    .enlace a{
+        width: 70%;
+        font-size: 11px;
+    }
+    
+    .contenido-lateral{
+        display: none;
+    }
+
+    .pie{
+        width: 218px;
+    }
+
+    .menupie h2, .direccion h2, .desarrollo h2{
+        font-size: 15px;
+    }
+
+    .menupie ul li a{
+        font-size: 16px;
+    }
+
+    .contenidoPie p{
+        font-size: 14px;
+    }
+ 
+}
+
+/*Responsive en el pixel 800px*/
+@media (max-width: 800px){
+    .encabezado h1{
+        font-size: 30px;
+    } 
+
+    .menu > li > a{
+        font-size: 15px;
+    }
+}
+
+/*Responsive en el pixel 750px*/
+@media (max-width: 750px){
+    .pie{
+        width: 180px;
+    }
+
+    .img{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+}
+
+/*Responsive en el pixel 639px*/
+@media (max-width: 639px){
+    .encabezado h1{
+        font-size: 25px;
+    }
+
+    .tarjetas-noticias h3{
+        font-size: 15px;
+    }
+
+    .pie{
+        width: 160px;
+    }
+
+    .menupie h2, .direccion h2, .desarrollo h2 {
+        font-size: 14px;
+    }
+}
+
+/*Responsive en el pixel 574px*/
+@media (max-width: 574px){
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .contenido{
+        flex: 4;
+    }
+
+    .tarjetas-noticias{
+        flex: 1 1 calc(51% - 20px);
+    }
+
+    .tarjetas-noticias h3{
+        font-size: 25;
+    }
+
+    .tarjetas-noticias:nth-child(3),.tarjetas-noticias:nth-child(4){
+        display: none;
+    }
+}
+
